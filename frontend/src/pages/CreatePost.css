@@ -1,0 +1,64 @@
+.create-post-container {
+  width: 400px;
+  padding: 20px;
+  background: #f2ebd0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #7d9272;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #829777;
+  border-radius: 5px;
+  background: #efe6c9;
+  font-size: 14px;
+}
+
+.file-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #efe8c8;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-input input {
+  display: none;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f0e7ca;
+}
+
+button {
+  background: #7d9272;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #869977;
+}
