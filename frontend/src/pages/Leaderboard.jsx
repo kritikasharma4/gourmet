@@ -12,46 +12,53 @@ const Leaderboard = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#6C6A64",
-        maxHeight: "100vh",
-        padding: "10px",
-        color: "white",
+        background: "linear-gradient(135deg, #3E2723, #5D4037)", // Dark outer gradient for contrast
+        width: "100%",
+        maxWidth: "380px",
+        padding: "30px",
+        borderRadius: "16px",
+        color: "#EDE0D4",
+        boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.2)",
       }}
     >
-      <Typography variant="h4" gutterBottom sx={{ fontWeight: "bold", textAlign: "center" }}>
+      <Typography variant="h5" sx={{ fontWeight: "bold", textAlign: "center", color: "#D7B19D" }}>
         Track Foodie Stats
       </Typography>
 
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "15px",
-          alignItems: "center",
-          marginTop: "20px",
-        }}
-      >
+      <Box sx={{ display: "flex", flexDirection: "column", gap: "12px", alignItems: "center", marginTop: "12px" }}>
         {stats.map((stat, index) => (
           <Card
             key={index}
             sx={{
-              backgroundColor: "#3A3A3A",
-              color: "white",
-              width: "80%",
-              maxWidth: "400px",
+              background: "linear-gradient(to right, #4E342E, #6D4C41)", // Slightly dark outer background
+              color: "#EDE0D4",
+              width: "100%",
               display: "flex",
               alignItems: "center",
-              padding: "15px",
-              borderRadius: "12px",
+              padding: "12px",
+              borderRadius: "10px",
+              boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)",
+              transition: "transform 0.2s ease-in-out",
+              '&:hover': {
+                transform: "scale(1.05)",
+              },
             }}
           >
-            <Box sx={{ marginRight: "15px", color: "#FFD700" }}>{stat.icon}</Box>
-            <CardContent>
-              <Typography variant="h6" sx={{ fontWeight: "bold" }}>
+            <Box sx={{ marginRight: "12px", color: "#FFD700" }}>{stat.icon}</Box>
+            <CardContent
+              sx={{
+                background: "linear-gradient(to bottom, #F5E1C2, #FFF5E1)", // Lighter card content for contrast
+                borderRadius: "8px",
+                padding: "10px 16px",
+                width: "100%",
+                boxShadow: "inset 0px 4px 6px rgba(0, 0, 0, 0.1)",
+              }}
+            >
+              <Typography variant="h6" sx={{ fontWeight: "bold", color: "#6D4C41" }}>
                 {stat.title}
               </Typography>
-              <Typography variant="body1">{stat.value}</Typography>
-              <Typography variant="body2" sx={{ opacity: 0.7 }}>
+              <Typography variant="body1" sx={{ fontWeight: "medium", color: "#5D4037" }}>{stat.value}</Typography>
+              <Typography variant="body2" sx={{ opacity: 0.8, color: "#8D6E63" }}>
                 {stat.description}
               </Typography>
             </CardContent>
