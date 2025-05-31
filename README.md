@@ -1,78 +1,76 @@
-# Gourmet - Food Sharing Social Platform
+# 🍽️ Gourmet – Where Foodies Connect, Share & Thrive
 
-## User Flow
+Gourmet is the ultimate **social platform for food lovers**. Snap your meals, share delicious moments, track your calorie intake, and climb the leaderboard – all in one sleek, interactive app!
 
-1. **Onboarding**  
-   - Welcome Screen  
-   - Sign Up / Login (via email, Google, or social media)  
-   - Profile Setup: Add profile picture, bio, dietary preferences
+---
 
-2. **Home Feed**  
-   - View posts from friends and popular foodies  
-   - Like, comment, and share posts  
-   - Swipe to explore trending posts
+## 🚀 User Journey
 
-3. **Create a Post**  
-   - Upload food photos  
-   - Add captions, hashtags, and tag friends  
-   - Automatic calorie count (optional)  
-   - Post to feed
+1. **👋 Onboarding**
+   - Beautiful welcome screen  
+   - Sign up via email, Google, or social accounts  
+   - Set up your profile with a pic, bio & dietary preferences  
 
-4. **Profile Management**  
-   - View personal posts and streak stats  
-   - Edit profile details  
-   - Check foodie level, coins earned, and streak leaderboard
+2. **🏠 Home Feed**
+   - Explore posts from friends and trending foodies  
+   - Like, comment, and share mouthwatering content  
+   - Swipe through trending meals and discover new dishes  
 
-5. **Calorie Tracker**  
-   - Log daily meals manually or via photo recognition  
-   - View calorie history and nutritional breakdown
+3. **📸 Create a Post**
+   - Upload drool-worthy food photos  
+   - Add witty captions, hashtags & tag friends  
+   - Optional AI-powered calorie count  
 
-6. **Chat with Friends**  
-   - Direct messaging with friends  
-   - Group chats for foodie communities  
-   - Send images, emojis, and voice notes
+4. **👤 Profile Management**
+   - Manage posts, check streaks & foodie levels  
+   - View coins earned & position on the leaderboard  
+   - Customize your profile with flair  
 
-7. **Leaderboard & Rewards**  
-   - Leaderboard based on post streaks and coins earned  
-   - Foodie Level badges  
-   - Redeem coins for virtual rewards or profile customizations
+5. **🔥 Calorie Tracker**
+   - Log meals manually or via photo recognition  
+   - Get a breakdown of calories & nutrition  
 
-## Key Features
+6. **💬 Chat with Friends**
+   - 1:1 and group chats for foodie banter  
+   - Share images, emojis & voice notes  
+   - Build foodie communities together  
 
-- **User Authentication:** Secure sign-up/login with JWT
-- **Profile Management:** Edit profile, dietary preferences
-- **Photo Sharing:** Upload food images with captions and tags
-- **Calorie Counter:** AI-based image recognition for calorie estimation
-- **Real-Time Chat:** One-on-one and group messaging
-- **Leaderboard:** Post streaks, coins earned, foodie levels
-- **Rewards System:** Earn and redeem coins
-- **Notifications:** Real-time updates for likes, comments, messages
+7. **🏆 Leaderboard & Rewards**
+   - Compete in streaks and earn coins  
+   - Unlock badges, foodie levels, and profile bling  
+   - Redeem coins for in-app rewards  
 
-## Tech Stack (MERN)
+---
 
-- **MongoDB:** Database for user data, posts, and messages
-- **Express.js:** Backend API for handling requests
-- **React:** Frontend UI with responsive design
-- **Node.js:** Server-side logic and real-time functionalities
+## ✨ Key Features
 
-## Installation
+- 🔐 **Secure Auth:** JWT-based login with email, Google & socials  
+- 🍲 **Photo Sharing:** Post meals with tags, captions, and calories  
+- 📊 **AI Calorie Counter:** Estimate meals with image recognition  
+- 💬 **Real-Time Messaging:** Private & group chats  
+- 🏅 **Gamified Experience:** Foodie levels, streaks, leaderboards  
+- 💡 **Notifications:** Real-time updates for all interactions  
+- 🎁 **Rewards System:** Earn and redeem Gourmet Coins  
+
+---
+
+## 🛠 Tech Stack (MERN)
+
+| Tech        | Purpose                        |
+|-------------|--------------------------------|
+| MongoDB     | Database for users, posts, chats |
+| Express.js  | RESTful backend APIs            |
+| React       | Modern, responsive frontend     |
+| Node.js     | Backend logic + real-time ops   |
+
+---
+
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/gourmet.git
+git clone https://github.com/kritikasharma4/gourmet.git
 cd gourmet
 npm install
 npm run dev
-```
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/awesome-feature`)
-3. Commit your changes (`git commit -m 'Add awesome feature'`)
-4. Push to the branch (`git push origin feature/awesome-feature`)
-5. Open a pull request
-
-## License
-
-MIT License
 
